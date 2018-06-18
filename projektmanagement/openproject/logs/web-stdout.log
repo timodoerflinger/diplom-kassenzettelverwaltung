@@ -1,0 +1,256 @@
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+ --> Downloading a Phusion Passenger agent binary for your platform
+
+ --> Installing Nginx 1.10.3 engine
+
+--------------------------
+
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /usr/src/app/passenger.8080.pid
+Log file: /usr/src/app/log/passenger.8080.log
+Environment: production
+Accessible via: http://0.0.0.0:8080/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+Problems? Check https://www.phusionpassenger.com/library/admin/standalone/troubleshooting/
+===============================================================================
+[ 2018-06-18 11:30:51.8850 362/7fc948ad7700 age/Cor/SecurityUpdateChecker.h:358 ]: A security update is available for your version (5.1.5) of Passenger, we strongly recommend upgrading to version 5.3.2.
+[ 2018-06-18 11:30:51.8851 362/7fc948ad7700 age/Cor/SecurityUpdateChecker.h:363 ]:  Additional information: 
+Several critical security issues have been fixed since v5.1.5, due to an issue in Passenger < 5.1.6 we can not display more info.
+App 408 stdout: 
+App 408 stdout: [auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+App 408 stdout: hook registered
+App 408 stdout: Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+App 435 stdout: 
+Stopping web server... done
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+=============== Phusion Passenger Standalone web server started ===============
+PID file: /usr/src/app/passenger.8080.pid
+Log file: /usr/src/app/log/passenger.8080.log
+Environment: production
+Accessible via: http://0.0.0.0:8080/
+
+You can stop Phusion Passenger Standalone by pressing Ctrl-C.
+Problems? Check https://www.phusionpassenger.com/library/admin/standalone/troubleshooting/
+===============================================================================
+[ 2018-06-18 11:34:02.3012 264/7fc6d9b71700 age/Cor/SecurityUpdateChecker.h:358 ]: A security update is available for your version (5.1.5) of Passenger, we strongly recommend upgrading to version 5.3.2.
+[ 2018-06-18 11:34:02.3012 264/7fc6d9b71700 age/Cor/SecurityUpdateChecker.h:363 ]:  Additional information: 
+Several critical security issues have been fixed since v5.1.5, due to an issue in Passenger < 5.1.6 we can not display more info.
+App 310 stdout: 
+App 310 stdout: [auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+App 310 stdout: hook registered
+App 310 stdout: Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+App 337 stdout: 
+App 337 stdout: Failed login for 'admin' from 127.0.0.1 at 2018-06-18 11:35:23 UTC: invalid credentials
+App 1991 stdout: 
+App 337 stdout:   
+App 337 stdout: ActionController::RoutingError (No route matches [GET] "/assets/bundles/7b9776076d5fceef4993b55c9383dedd.gif"):
+App 337 stdout:   
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: request_store (1.3.2) lib/request_store/middleware.rb:9:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/engine.rb:522:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `public_send'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `method_missing'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/frame_options.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/json_csrf.rb:26:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:68:in `block in call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `each'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ 2018-06-18 12:41:46.9077 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 1991, application /usr/src/app/public (production)
+App 2243 stdout: 
+App 2272 stdout: 
+App 337 stdout:   
+App 337 stdout: ActionController::RoutingError (No route matches [GET] "/assets/bundles/7b9776076d5fceef4993b55c9383dedd.gif"):
+App 337 stdout:   
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: request_store (1.3.2) lib/request_store/middleware.rb:9:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/engine.rb:522:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `public_send'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `method_missing'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/frame_options.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/json_csrf.rb:26:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:68:in `block in call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `each'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+App 337 stdout:   
+App 337 stdout: ActionController::RoutingError (No route matches [GET] "/assets/bundles/7b9776076d5fceef4993b55c9383dedd.gif"):
+App 337 stdout:   
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: request_store (1.3.2) lib/request_store/middleware.rb:9:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/engine.rb:522:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `public_send'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `method_missing'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/frame_options.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/json_csrf.rb:26:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:68:in `block in call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `each'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+App 337 stdout:   
+App 337 stdout: ActionController::RoutingError (No route matches [GET] "/assets/bundles/7b9776076d5fceef4993b55c9383dedd.gif"):
+App 337 stdout:   
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+App 337 stdout: activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+App 337 stdout: railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: request_store (1.3.2) lib/request_store/middleware.rb:9:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/engine.rb:522:in `call'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `public_send'
+App 337 stdout: railties (5.0.6) lib/rails/railtie.rb:193:in `method_missing'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/frame_options.rb:31:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack-protection (2.0.1) lib/rack/protection/json_csrf.rb:26:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:68:in `block in call'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `each'
+App 337 stdout: rack (2.0.3) lib/rack/urlmap.rb:53:in `call'
+App 337 stdout: newrelic_rpm (4.5.0.337) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+App 337 stdout: passenger (5.1.5) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+[ 2018-06-18 12:56:12.0889 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2243, application /usr/src/app/public (production)
+[ 2018-06-18 12:56:12.0909 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2272, application /usr/src/app/public (production)
+App 2653 stdout: 
+App 2714 stdout: 
+[ 2018-06-18 13:31:20.3821 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2714, application /usr/src/app/public (production)
+[ 2018-06-18 13:32:48.6657 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 2653, application /usr/src/app/public (production)
+App 3734 stdout: 
+App 3744 stdout: 
+[ 2018-06-18 13:40:20.2861 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3744, application /usr/src/app/public (production)
+[ 2018-06-18 13:40:20.2890 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 3734, application /usr/src/app/public (production)
+App 4004 stdout: 
+App 4015 stdout: 
+[ 2018-06-18 13:48:47.3064 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 4004, application /usr/src/app/public (production)
+[ 2018-06-18 13:48:47.3124 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 4015, application /usr/src/app/public (production)
+App 4350 stdout: 
+App 4360 stdout: 
+[ 2018-06-18 14:02:37.3212 264/7fc6db463700 age/Cor/CoreMain.cpp:917 ]: Checking whether to disconnect long-running connections for process 4360, application /usr/src/app/public (production)
+App 4664 stdout: 

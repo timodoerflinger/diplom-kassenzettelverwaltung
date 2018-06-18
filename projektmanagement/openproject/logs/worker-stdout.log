@@ -1,0 +1,684 @@
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+[auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+hook registered
+Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+[Worker(host:e06dd657f930 pid:126)] Starting job worker
+[Worker(host:e06dd657f930 pid:126)] Exiting...
+`/root` is not writable.
+Bundler will use `/tmp/bundler/home/unknown' as your home directory temporarily.
+[auth_saml] Missing settings from '/usr/src/app/config/plugins/auth_saml/settings.yml', skipping omniauth registration.
+hook registered
+Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
+[Worker(host:e06dd657f930 pid:94)] Starting job worker
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (0 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T12:49:58+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (0 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 1.6227 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (1 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T12:50:08+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (1 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.6110 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (2 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T12:50:33+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (2 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 26.3710 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=1) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=1) COMPLETED after 0.0703
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 11.9933 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (3 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T12:52:03+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (3 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 23.0381 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=2) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=2) COMPLETED after 0.0296
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 24.4745 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=4) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=4) COMPLETED after 0.2824
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=5) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=5) COMPLETED after 0.2953
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 3.3713 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (4 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T12:56:24+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (4 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 17.5104 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=6) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=6) COMPLETED after 0.0340
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=7) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=7) COMPLETED after 0.1291
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=8) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=8) COMPLETED after 0.0261
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=9) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=9) COMPLETED after 0.1139
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=19) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=19) COMPLETED after 0.0893
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=20) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=20) COMPLETED after 0.1996
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 9.5175 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=10) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=10) COMPLETED after 0.0098
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=11) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=11) COMPLETED after 0.0075
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 59.3205 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=12) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=12) COMPLETED after 0.0233
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=13) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=13) COMPLETED after 0.0218
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 32.5973 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=14) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=14) COMPLETED after 0.1085
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=21) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=21) COMPLETED after 0.0781
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 9.8580 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (5 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T13:06:56+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (5 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 17.1135 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=15) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=15) COMPLETED after 0.0240
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=16) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=16) COMPLETED after 0.1116
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=22) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=22) COMPLETED after 0.0795
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 12.4092 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=17) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=17) COMPLETED after 0.0235
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=18) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=18) COMPLETED after 0.1052
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=24) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=24) COMPLETED after 0.0798
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 13.1276 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=23) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=23) COMPLETED after 0.0364
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.7422 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=25) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=25) COMPLETED after 0.0242
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=26) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=26) COMPLETED after 0.1249
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=48) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=48) COMPLETED after 0.1351
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 9.8305 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=27) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=27) COMPLETED after 0.0226
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=28) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=28) COMPLETED after 0.1102
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=29) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=29) COMPLETED after 0.0245
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=30) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=30) COMPLETED after 0.1186
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=49) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=49) COMPLETED after 0.1451
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=50) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=50) COMPLETED after 0.1320
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 10.1102 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=31) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=31) COMPLETED after 0.0263
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=32) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=32) COMPLETED after 0.1181
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=51) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=51) COMPLETED after 0.1296
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 10.1993 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=33) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=33) COMPLETED after 0.0258
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=34) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=34) COMPLETED after 0.0277
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=35) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=35) COMPLETED after 0.1159
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=53) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=53) COMPLETED after 0.1022
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 13.3492 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=36) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=36) COMPLETED after 0.0241
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=37) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=37) COMPLETED after 0.1152
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=38) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=38) COMPLETED after 0.1157
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=54) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=54) COMPLETED after 0.1345
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=55) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=55) COMPLETED after 0.1081
+[Worker(host:e06dd657f930 pid:94)] 5 jobs processed at 9.4191 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=39) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=39) COMPLETED after 0.0236
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=40) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=40) COMPLETED after 0.1040
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=56) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=56) COMPLETED after 0.1396
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 10.4461 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=41) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=41) COMPLETED after 0.1148
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=57) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=57) COMPLETED after 0.1078
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.3674 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=42) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=42) COMPLETED after 0.0309
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=43) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=43) COMPLETED after 0.1249
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=58) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=58) COMPLETED after 0.1425
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 9.4130 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=44) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=44) COMPLETED after 0.1245
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=59) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=59) COMPLETED after 0.1082
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.9884 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=45) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=45) COMPLETED after 0.0265
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 25.4949 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=46) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=46) COMPLETED after 0.1172
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=61) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=61) COMPLETED after 0.0853
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 9.1214 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=47) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=47) COMPLETED after 0.0364
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.2064 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=52) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=52) COMPLETED after 0.1097
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=65) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=65) COMPLETED after 0.0785
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 9.7646 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=60) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=60) COMPLETED after 0.1379
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=66) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=66) COMPLETED after 0.0945
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.0248 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=62) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=62) COMPLETED after 0.0371
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 19.3848 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=63) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=63) COMPLETED after 0.1007
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=67) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=67) COMPLETED after 0.0769
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 10.2898 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=64) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=64) COMPLETED after 0.1173
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=68) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=68) COMPLETED after 0.0882
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.9473 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (6 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T13:28:38+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (6 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 16.8110 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=69) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=69) COMPLETED after 0.1291
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=71) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=71) COMPLETED after 0.1024
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.9880 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=70) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=70) COMPLETED after 0.0153
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 31.8005 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=72) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=72) COMPLETED after 0.1058
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=77) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=77) COMPLETED after 0.1092
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.7042 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=73) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=73) COMPLETED after 0.1124
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=78) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=78) COMPLETED after 0.0970
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.8219 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=74) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=74) COMPLETED after 0.1031
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=79) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=79) COMPLETED after 0.1109
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.6733 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=75) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=75) COMPLETED after 0.1127
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=80) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=80) COMPLETED after 0.1004
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.7166 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=76) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=76) COMPLETED after 0.1070
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=81) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=81) COMPLETED after 0.1120
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.4159 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=82) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=82) COMPLETED after 0.1092
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=84) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=84) COMPLETED after 0.0926
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.7050 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=83) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=83) COMPLETED after 0.1178
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=85) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=85) COMPLETED after 0.0873
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.9736 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=86) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=86) COMPLETED after 0.0105
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 42.8264 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=87) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=87) COMPLETED after 0.0115
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 40.8881 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=88) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=88) COMPLETED after 0.0101
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 42.8289 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=89) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=89) COMPLETED after 0.0101
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 44.6576 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=90) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=90) COMPLETED after 0.1295
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=105) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=105) COMPLETED after 0.1174
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.5672 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=91) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=91) COMPLETED after 0.0381
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 18.4298 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=92) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=92) COMPLETED after 0.0342
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.4063 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=93) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=93) COMPLETED after 0.0365
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.1124 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=94) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=94) COMPLETED after 0.1664
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=117) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=117) COMPLETED after 0.1399
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 6.0458 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=95) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=95) COMPLETED after 0.1476
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=118) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=118) COMPLETED after 0.1390
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 6.4729 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=96) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=96) COMPLETED after 0.0362
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.5769 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=97) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=97) COMPLETED after 0.0312
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 22.7679 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=98) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=98) COMPLETED after 0.0348
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 20.6631 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=99) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=99) COMPLETED after 0.1572
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=100) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=100) COMPLETED after 0.1234
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=127) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=127) COMPLETED after 0.1209
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=128) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=128) COMPLETED after 0.1196
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.1675 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=101) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=101) COMPLETED after 0.1215
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=131) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=131) COMPLETED after 0.1206
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.6549 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=102) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=102) COMPLETED after 0.0447
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 17.9921 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=103) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=103) COMPLETED after 0.0400
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 18.2475 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=104) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=104) COMPLETED after 0.1614
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=139) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=139) COMPLETED after 0.1258
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 6.5317 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=106) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=106) COMPLETED after 0.1844
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=148) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=148) COMPLETED after 0.1432
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 5.7482 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=107) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=107) COMPLETED after 0.0275
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=108) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=108) COMPLETED after 0.0282
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=109) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=109) COMPLETED after 0.1237
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=110) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=110) COMPLETED after 0.1377
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=111) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=111) COMPLETED after 0.1414
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=112) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=112) COMPLETED after 0.1257
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=113) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=113) COMPLETED after 0.1353
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=149) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=149) COMPLETED after 0.1578
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=150) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=150) COMPLETED after 0.1623
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=151) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=151) COMPLETED after 0.1342
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=152) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=152) COMPLETED after 0.1701
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=153) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=153) COMPLETED after 0.1735
+[Worker(host:e06dd657f930 pid:94)] 12 jobs processed at 7.4850 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=114) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=114) COMPLETED after 0.0431
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=115) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=115) COMPLETED after 0.1625
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=154) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=154) COMPLETED after 0.1764
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 7.3442 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=116) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=116) COMPLETED after 0.0320
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 21.6565 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=119) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=119) COMPLETED after 0.0360
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=120) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=120) COMPLETED after 0.1164
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=121) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=121) COMPLETED after 0.0299
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=122) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=122) COMPLETED after 0.1361
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=155) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=155) COMPLETED after 0.0908
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=156) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=156) COMPLETED after 0.1587
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 9.7508 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=123) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=123) COMPLETED after 0.0325
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=124) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=124) COMPLETED after 0.0986
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=125) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=125) COMPLETED after 0.0252
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=126) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=126) COMPLETED after 0.1043
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=162) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=162) COMPLETED after 0.0785
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=163) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=163) COMPLETED after 0.1431
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 11.4806 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=129) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=129) COMPLETED after 0.0314
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=130) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=130) COMPLETED after 0.1289
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=164) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=164) COMPLETED after 0.0896
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 10.8362 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=132) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=132) COMPLETED after 0.0347
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=133) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=133) COMPLETED after 0.1386
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=134) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=134) COMPLETED after 0.0392
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=135) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=135) COMPLETED after 0.1540
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=169) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=169) COMPLETED after 0.1102
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=170) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=170) COMPLETED after 0.1710
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 8.6791 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=136) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=136) COMPLETED after 0.0358
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=137) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=137) COMPLETED after 0.1399
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=171) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=171) COMPLETED after 0.1058
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 9.7717 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=138) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=138) COMPLETED after 0.1422
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=177) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=177) COMPLETED after 0.1161
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.2267 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=140) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=140) COMPLETED after 0.0385
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=141) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=141) COMPLETED after 0.1184
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=142) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=142) COMPLETED after 0.0305
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=143) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=143) COMPLETED after 0.1455
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=178) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=178) COMPLETED after 0.0902
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=179) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=179) COMPLETED after 0.1642
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 9.5582 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (7 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T14:08:46+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (7 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 15.2801 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=144) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=144) COMPLETED after 0.0320
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=145) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=145) COMPLETED after 0.1237
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=180) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=180) COMPLETED after 0.1080
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 10.4070 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=146) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=146) COMPLETED after 0.0274
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=147) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=147) COMPLETED after 0.1035
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=181) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=181) COMPLETED after 0.0906
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 11.6155 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=157) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=157) COMPLETED after 0.0255
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=158) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=158) COMPLETED after 0.1035
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=159) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=159) COMPLETED after 0.1314
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=183) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=183) COMPLETED after 0.0904
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=184) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=184) COMPLETED after 0.1152
+[Worker(host:e06dd657f930 pid:94)] 5 jobs processed at 10.0407 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=160) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=160) COMPLETED after 0.0265
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=161) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=161) COMPLETED after 0.1080
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=185) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=185) COMPLETED after 0.1035
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 11.4475 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=165) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=165) COMPLETED after 0.0313
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=166) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=166) COMPLETED after 0.1322
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=167) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=167) COMPLETED after 0.0405
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=186) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=186) COMPLETED after 0.1133
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=168) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=168) COMPLETED after 0.1764
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=187) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=187) COMPLETED after 0.1843
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 8.3226 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=172) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=172) COMPLETED after 0.0343
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=173) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=173) COMPLETED after 0.1422
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=188) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=188) COMPLETED after 0.1077
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 9.6543 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=174) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=174) COMPLETED after 0.0445
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=175) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=175) COMPLETED after 0.1449
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=176) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=176) COMPLETED after 0.1431
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=190) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=190) COMPLETED after 0.0923
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=191) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=191) COMPLETED after 0.1163
+[Worker(host:e06dd657f930 pid:94)] 5 jobs processed at 8.6169 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=182) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=182) COMPLETED after 0.1427
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=203) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=203) COMPLETED after 0.1230
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 6.9747 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=189) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=189) COMPLETED after 0.1341
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=224) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=224) COMPLETED after 0.1115
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.5662 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=192) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=192) COMPLETED after 0.0283
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 24.1067 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=193) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=193) COMPLETED after 0.0314
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 22.6154 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=194) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=194) COMPLETED after 0.0300
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 22.9687 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=195) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=195) COMPLETED after 0.0337
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 21.5085 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=196) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=196) COMPLETED after 0.0279
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 23.8987 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=197) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=197) COMPLETED after 0.0312
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 21.0099 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=198) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=198) COMPLETED after 0.1755
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=232) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=232) COMPLETED after 0.1333
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 6.1089 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=199) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=199) COMPLETED after 0.0433
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 17.6874 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=200) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=200) COMPLETED after 0.1248
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=201) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=201) COMPLETED after 0.1206
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=202) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=202) COMPLETED after 0.1194
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=239) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=239) COMPLETED after 0.1136
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=240) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=240) COMPLETED after 0.1099
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=241) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=241) COMPLETED after 0.1265
+[Worker(host:e06dd657f930 pid:94)] 6 jobs processed at 7.9256 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=204) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=204) COMPLETED after 0.0308
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=205) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=205) COMPLETED after 0.1416
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=242) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=242) COMPLETED after 0.1450
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 8.7659 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=206) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=206) COMPLETED after 0.1403
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=207) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=207) COMPLETED after 0.1468
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=243) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=243) COMPLETED after 0.1349
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=244) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=244) COMPLETED after 0.1538
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6160 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=208) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=208) COMPLETED after 0.1352
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=209) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=209) COMPLETED after 0.1436
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=245) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=245) COMPLETED after 0.1208
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=246) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=246) COMPLETED after 0.1690
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6711 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=210) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=210) COMPLETED after 0.1592
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=211) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=211) COMPLETED after 0.1532
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=247) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=247) COMPLETED after 0.1228
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=248) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=248) COMPLETED after 0.1693
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.2501 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=212) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=212) COMPLETED after 0.1439
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=213) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=213) COMPLETED after 0.1405
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=249) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=249) COMPLETED after 0.1273
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=250) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=250) COMPLETED after 0.1544
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6733 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=214) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=214) COMPLETED after 0.1460
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=215) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=215) COMPLETED after 0.1383
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=251) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=251) COMPLETED after 0.1235
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=252) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=252) COMPLETED after 0.1620
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6004 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=216) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=216) COMPLETED after 0.1424
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=217) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=217) COMPLETED after 0.1515
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=253) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=253) COMPLETED after 0.1203
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=254) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=254) COMPLETED after 0.1552
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6367 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=218) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=218) COMPLETED after 0.1423
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=219) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=219) COMPLETED after 0.1475
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=255) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=255) COMPLETED after 0.1293
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=256) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=256) COMPLETED after 0.1667
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.4642 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=220) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=220) COMPLETED after 0.1318
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=221) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=221) COMPLETED after 0.1476
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=257) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=257) COMPLETED after 0.1282
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=258) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=258) COMPLETED after 0.1627
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.6527 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=222) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=222) COMPLETED after 0.1549
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=223) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=223) COMPLETED after 0.1547
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=259) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=259) COMPLETED after 0.1253
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=260) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=260) COMPLETED after 0.1571
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 6.3828 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=225) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=225) COMPLETED after 0.0288
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=226) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=226) COMPLETED after 0.1188
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=227) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=227) COMPLETED after 0.1216
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=261) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=261) COMPLETED after 0.0872
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=262) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=262) COMPLETED after 0.1339
+[Worker(host:e06dd657f930 pid:94)] 5 jobs processed at 9.5340 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=228) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=228) COMPLETED after 0.1166
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=229) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=229) COMPLETED after 0.1166
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=263) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=263) COMPLETED after 0.1056
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=264) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=264) COMPLETED after 0.1332
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 8.0198 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=230) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=230) COMPLETED after 0.1251
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=231) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=231) COMPLETED after 0.1309
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=265) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=265) COMPLETED after 0.1092
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=266) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=266) COMPLETED after 0.1413
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.4854 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=233) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=233) COMPLETED after 0.1311
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=234) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=234) COMPLETED after 0.1364
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=267) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=267) COMPLETED after 0.1128
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=268) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=268) COMPLETED after 0.1451
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.1721 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=235) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=235) COMPLETED after 0.0290
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=236) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=236) COMPLETED after 0.1289
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=269) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=269) COMPLETED after 0.1413
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 9.2966 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=237) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=237) COMPLETED after 0.1225
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=238) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=238) COMPLETED after 0.1270
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=270) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=270) COMPLETED after 0.1124
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=271) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=271) COMPLETED after 0.1398
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.5291 j/s, 0 failed

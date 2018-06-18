@@ -1,0 +1,7 @@
+90
+/var/lib/postgresql/9.6/main
+1529321639
+5432
+/var/run/postgresql
+*
+  5432001     32768

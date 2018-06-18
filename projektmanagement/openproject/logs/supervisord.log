@@ -1,0 +1,50 @@
+2018-06-18 11:30:45,785 CRIT Supervisor running as root (no user in config file)
+2018-06-18 11:30:45,786 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2018-06-18 11:30:45,795 INFO RPC interface 'supervisor' initialized
+2018-06-18 11:30:45,796 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-06-18 11:30:45,797 INFO supervisord started with pid 1
+2018-06-18 11:30:46,807 INFO spawned: 'postgres' with pid 121
+2018-06-18 11:30:46,816 INFO spawned: 'apache2' with pid 122
+2018-06-18 11:30:46,828 INFO spawned: 'web' with pid 124
+2018-06-18 11:30:46,835 INFO spawned: 'worker' with pid 126
+2018-06-18 11:30:46,842 INFO spawned: 'postfix' with pid 127
+2018-06-18 11:30:46,849 INFO spawned: 'memcached' with pid 128
+2018-06-18 11:30:46,984 INFO success: postfix entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-06-18 11:30:47,165 INFO exited: postfix (exit status 0; expected)
+2018-06-18 11:30:47,821 INFO success: postgres entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:30:47,822 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:30:47,823 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:30:47,893 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:30:47,895 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:32:58,499 WARN received SIGINT indicating exit request
+2018-06-18 11:32:58,500 INFO waiting for web, postgres, worker, apache2, memcached to die
+2018-06-18 11:32:58,503 INFO stopped: memcached (exit status 0)
+2018-06-18 11:32:59,712 INFO stopped: worker (exit status 0)
+2018-06-18 11:32:59,717 INFO reaped unknown pid 390
+2018-06-18 11:32:59,719 INFO reaped unknown pid 359
+2018-06-18 11:32:59,721 INFO reaped unknown pid 368
+2018-06-18 11:32:59,826 INFO stopped: web (exit status 2)
+2018-06-18 11:32:59,827 INFO reaped unknown pid 400
+2018-06-18 11:32:59,827 INFO reaped unknown pid 397
+2018-06-18 11:32:59,829 INFO stopped: apache2 (terminated by SIGTERM)
+2018-06-18 11:32:59,897 INFO reaped unknown pid 435
+2018-06-18 11:32:59,913 INFO reaped unknown pid 402
+2018-06-18 11:32:59,960 INFO stopped: postgres (exit status 0)
+2018-06-18 11:33:57,995 CRIT Supervisor running as root (no user in config file)
+2018-06-18 11:33:57,996 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2018-06-18 11:33:58,007 INFO RPC interface 'supervisor' initialized
+2018-06-18 11:33:58,008 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-06-18 11:33:58,009 INFO supervisord started with pid 1
+2018-06-18 11:33:59,018 INFO spawned: 'postgres' with pid 90
+2018-06-18 11:33:59,033 INFO spawned: 'apache2' with pid 91
+2018-06-18 11:33:59,041 INFO spawned: 'web' with pid 92
+2018-06-18 11:33:59,049 INFO spawned: 'worker' with pid 94
+2018-06-18 11:33:59,057 INFO spawned: 'postfix' with pid 96
+2018-06-18 11:33:59,064 INFO spawned: 'memcached' with pid 97
+2018-06-18 11:33:59,114 INFO success: postfix entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-06-18 11:33:59,466 INFO exited: postfix (exit status 0; expected)
+2018-06-18 11:34:00,196 INFO success: postgres entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:34:00,196 INFO success: apache2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:34:00,197 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:34:00,198 INFO success: worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-18 11:34:00,198 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

@@ -62,9 +62,45 @@ In meiner Diplomarbeit erstelle ich eine App zur Kassenzettel-Verwaltung. Für me
 \newpage
 
 
+\section{GitHub-Repository}
 
 
+\section{Projektmanagement - Scrum}
 
+Die Diplomarbeit ist ein wichtiges Projekt mit einem geringen zeitlichen Rahmen. Um in diesem eng gesetzten Rahmen die Aufgaben und deren Verteilung im Überblick zu haben, habe ich mich entschieden die Diplomarbeit mit einer Projektmanagement-Methode zu führen. Da ich bereits in einem zuvor geführten Projekt mit HERMES5 schlechte Erfahrungen in einem Software-Engineering-Projekt gemacht hatte, habe ich mich entschieden, die Diplomarbeit mittels Scrum zu führen. 
+
+Da ich, wie bereits erwähnt, einen engen Zeitrahmen von 60 Stunden für die Diplomarbeit habe, wird ein Scrum-Sprint das komplette Projekt abdecken. Um die Diplomarbeit bestmöglich nach Scrum führen zu können, habe ich diverse unterstützende Programme herausgesucht. Bei der Evaluierung bin ich auf zwei interessante Programme gestossen. 
+
+Nach der ersten Suche hatte ich iceScrum \url{https://www.icescrum.com} entdeckt. Es sah einfach aus und war für ein Projekt kostenlos. Das Management findet in der Cloud des Anbieter statt. Bei dem ersten Test nach der Anmeldung musste ich aber feststellen, das manche Seiten lediglich auf Französisch zur Verfügung stehen. Da ich aber so gut wie keine Französischkenntnisse habe, empfand ich das als nicht sonderlich hilfreich und dachte es ist besser nach einer Alternative zu suchen. 
+
+Nach einer weiteren Suche bin ich dann auf OpenProject gestossen. OpenProject ist eine \textit{Open source project management software} mit Scrum integriert. OpenProject bietet eine Community-Version an, die kostenlos als auch lokal verwendet werden kann und auch die Darstellung des Programs auf ihrer Homepage hat mich angesprochen. Daher habe ich es getestet und empfinde es als die richtige Lösung für mich und die Diplomarbeit. 
+
+Ich habe das OpenProject in meiner lokalen Docker-Umgebung auf dem MacBook installiert. Dafür bin ich der Anleitung von OpenProject gefolgt und bin nach diese Anleitung prompt in ein Problem gelaufen, dass mich zeitlich etwas aufgehalten hatte. Der Anleitung zu folge, sollte für eine produktive Nutzung eine erweiterte Installation gemacht werden. So kann gesichert werden, dass bei einem Neustart des Container keine Daten verloren gehen und auch die Log-Dateien lokal in einer selbst gesetzten Ordnerstruktur auf dem System zu finden ist. 
+
+Dafür habe ich einen Ordner in dem GitHub-Repository erstellt, in dem dann diese Daten und Logs gesichert werden sollen. Dafür habe ich den angegebenen Konsole-Befehl für Docker, mit der angepassten Ordnerstruktur, ausgeführt. 
+
+\begin{lstlisting}
+docker run -d -p 8080:80 --name diplomopenproject -e SECRET_KEY_BASE=secret \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/pgdata:/var/lib/postgresql/9.6/main \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/logs:/var/log/supervisor \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/static:/var/db/openproject \
+  openproject/community:7
+\end{lstlisting}
+
+Dieser ist auch erfolgreich durchgelaufen und hat den Container erfolgreich erstellt. Die Webseite konnte ich aber dann nicht im Localhost http://localhost:8080 aufrufen. 
+Nach langem suchen und versuchen habe ich dann den zuvor aufgeführten Befehl wie folgt angepasst: 
+
+\begin{lstlisting}
+docker run -it -p 8080:80 --name diplomopenproject -e SECRET_KEY_BASE=secret \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/pgdata:/var/lib/postgresql/9.6/main \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/logs:/var/log/supervisor \
+  -v /Users/Timo/diplom-kassenzettelverwaltung/projektmanagement/openproject/static:/var/db/openproject \
+  openproject/community:7
+\end{lstlisting}
+
+Mit diesem Befehl konnte ich den Container erfolgreich erstellen und dann auch im Browser darstellen. Danach konnte ich den Container mit dem Befehl \textit{docker stop diplomopenproject} den Container stoppen und mit \textit{docker start diplomopenproject} den Container wieder starten und es wieder im Browser darstellen. 
+
+Nach der Installation ist bereits ein Administrator-Account erstellt, der für den ersten Login verwendet werden kann. Die Zugangsdaten stehen in der Installations-Anleitung. Nachdem Login mit dem Admin muss zuerst einmal ein neues Projekt erstellt werden. In diesem Projekt können nun \textit{Work packages}, also Arbeitspakete definiert werden, welchen nur einzelne Aufgaben oder ganze Meilensteine zugewiesen werden können. Da diese Einstellungen bzw. Erstellungen der Arbeitspakete als Projekt-Administrator mit dem bereits installierten Administrator definiert werden, habe ich noch einen weiteren Benutzer mit meinem Namen hinzugefügt. Diesem Benutzer werden dann die Arbeitspakete und deren enthaltener Aufgaben und Meilensteine zugewiesen. 
 
 
 
@@ -76,10 +112,18 @@ In meiner Diplomarbeit erstelle ich eine App zur Kassenzettel-Verwaltung. Für me
 
 \section{Quellenverzeichnis}
 
-Erklärung:
-\url{https://www.... Link ...}
 
 
+Anleitung für OpenProject in Docker
+\url{https://www.openproject.org/docker/}
+Video-Anleitung für Scrum Nutzung in 
+\url{https://www.openproject.org/collaboration-software-features/scrum-agile-project-management/}
+\url{}
+\url{}
+\url{}
+\url{}
+\url{}
+\url{}
 
 
 

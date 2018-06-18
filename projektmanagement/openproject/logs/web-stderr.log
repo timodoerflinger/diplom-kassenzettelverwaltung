@@ -1,0 +1,5 @@
+ [passenger_native_support.so] trying to compile for the current user (app) and Ruby interpreter...
+     (set PASSENGER_COMPILE_NATIVE_SUPPORT_BINARY=0 to disable)
+     Compilation successful. The logs are here:
+     /tmp/passenger_native_support-6t1zz8.log
+ [passenger_native_support.so] successfully loaded.
