@@ -1,0 +1,101 @@
+\documentclass[12pt,twoside,a4paper]{article}
+
+%nach folgender Quelle wurden die kommenden Dokument-Einstellungen gesetzt:
+%http://latex.hpfsc.de/content/latex_tutorial/umlaut_deutsch/
+
+% deutsche Silbentrennung
+\usepackage[ngerman]{babel}
+% bezüglich deutschen Umlauten
+\usepackage[ansinew]{inputenc}
+
+
+\usepackage{graphicx}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+
+\usepackage{listings}
+\lstset{
+language=C,
+commentstyle=\color{mygreen},
+numbers=left,
+tabsize=2,	
+frame=single
+}
+
+
+\usepackage{subfigure}
+\usepackage{hyperref}
+
+\begin{document}
+
+
+%Titelseite (nach folgender Quelle im Wikipedia nachgebaut: https://de.wikibooks.org/wiki/LaTeX/_Eine_Titelseite_erstellen): 
+\begin{titlepage}
+	\centering
+	%\includegraphics[width=0.15\textwidth]{example-image-1x1}\par\vspace{1cm}
+	{\scshape\LARGE hf-ict \par}
+	\vspace{1cm}
+	{\scshape\Large Diplomarbeit\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Kassenzettelverwaltung mit iOS-App\par}
+	\vspace{2cm}
+	{\Large\itshape Timo Dörflinger\par}
+	
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+
+
+% Inhaltsverzeichnis anzeigen
+\tableofcontents
+% Kapitel soll auf nächster Seite beginnen
+\newpage
+
+
+\section{Einleitung} 
+
+In meiner Diplomarbeit erstelle ich eine App zur Kassenzettel-Verwaltung. Für meinen Auftraggeber und mich persönlich sind die Kassenzettel verlorene Daten, ausser man verwendet Sie zur persönlichen Analyse bzw. zum Führen eines Haushaltsbuchs. Daher erstelle ich in meiner Diplomarbeit eine iOS-App, mit welcher ein Kassenzettel fotografiert werden kann. Aus diesem erstellten Abbild werden dann gewisse Werte bzw. Daten mit Hilfe eines bereits bestehenden OCR-Frameworks ausgelesen und zur weiteren Verarbeitung zwischengespeichert. Hier kann also unter anderem der Gesamtbetrag ausgelesen und mit einem gesetzten monatlichen Budget verrechnet werden. Dies soll dann auch kategorisiert werden können. Daraus ist ersichtlich, was in dem laufenden Monat bereits in den verschiedenen Kategorien ausgegeben wurde. Die Kategorien können jeweils individuell erstellt werden. 
+
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Quellenverzeichnis}
+
+Erklärung:
+\url{https://www.... Link ...}
+
+
+
+
+
+
+
+\section{Bilderverzeichnis}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
