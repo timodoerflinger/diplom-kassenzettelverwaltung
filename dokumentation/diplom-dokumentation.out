@@ -7,8 +7,11 @@
 \BOOKMARK [2][-]{subsection.5.2}{Apple Core Data}{section.5}% 7
 \BOOKMARK [2][-]{subsection.5.3}{Realm}{section.5}% 8
 \BOOKMARK [1][-]{section.6}{Datenbank-Schema}{}% 9
-\BOOKMARK [1][-]{section.7}{Produktiver Einsatz}{}% 10
-\BOOKMARK [1][-]{section.8}{Verwendete Software}{}% 11
-\BOOKMARK [2][-]{subsection.8.1}{MySQL-Workbench}{section.8}% 12
-\BOOKMARK [1][-]{section.9}{Quellenverzeichnis}{}% 13
-\BOOKMARK [1][-]{section.10}{Bilderverzeichnis}{}% 14
+\BOOKMARK [1][-]{section.7}{Datenbank Realm}{}% 10
+\BOOKMARK [2][-]{subsection.7.1}{Realm Installation}{section.7}% 11
+\BOOKMARK [2][-]{subsection.7.2}{Realm Implementierung}{section.7}% 12
+\BOOKMARK [1][-]{section.8}{Produktiver Einsatz}{}% 13
+\BOOKMARK [1][-]{section.9}{Verwendete Software}{}% 14
+\BOOKMARK [2][-]{subsection.9.1}{MySQL-Workbench}{section.9}% 15
+\BOOKMARK [1][-]{section.10}{Quellenverzeichnis}{}% 16
+\BOOKMARK [1][-]{section.11}{Bilderverzeichnis}{}% 17

@@ -742,3 +742,39 @@ Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=292) RUNNING
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=292) COMPLETED after 0.1119
 [Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 8.0939 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=293) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=293) COMPLETED after 0.1179
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=294) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=294) COMPLETED after 0.1117
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=296) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=296) COMPLETED after 0.1156
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=297) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=297) COMPLETED after 0.1442
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.6894 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=295) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=295) COMPLETED after 0.1233
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=298) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=298) COMPLETED after 0.1218
+[Worker(host:e06dd657f930 pid:94)] 2 jobs processed at 7.6524 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=299) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=299) COMPLETED after 0.0273
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=300) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=300) COMPLETED after 0.1113
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=301) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=301) COMPLETED after 0.1057
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=304) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=304) COMPLETED after 0.1145
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=305) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=305) COMPLETED after 0.1263
+[Worker(host:e06dd657f930 pid:94)] 5 jobs processed at 9.6878 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=302) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=302) COMPLETED after 0.0261
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=303) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=303) COMPLETED after 0.1123
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=306) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=306) COMPLETED after 0.1141
+[Worker(host:e06dd657f930 pid:94)] 3 jobs processed at 10.9230 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (11 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-19T13:22:56+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (11 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 14.9958 j/s, 1 failed

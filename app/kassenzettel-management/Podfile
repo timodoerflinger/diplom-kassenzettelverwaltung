@@ -1,10 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'tesseractTest' do
+target 'kassenzettel-management' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for tesseractTest
+  # Pods for kassenzettel-management
 pod 'TesseractOCRiOS', '4.0.0'
+pod 'RealmSwift'
 end

@@ -9,6 +9,8 @@
 import UIKit
 import TesseractOCR
 import AVFoundation
+import Realm
+import RealmSwift
 
 class photoViewController: UIViewController, UITextViewDelegate, G8TesseractDelegate {
 
@@ -84,7 +86,7 @@ class photoViewController: UIViewController, UITextViewDelegate, G8TesseractDele
     }
     
     
-    func getFinalValue(recognizedTextAsString: String) -> String {
+    /*func getFinalValue(recognizedTextAsString: String) -> String {
        
         var finalValue = ""
         let recognizedTextFromTesseract = recognizedTextAsString
@@ -103,7 +105,89 @@ class photoViewController: UIViewController, UITextViewDelegate, G8TesseractDele
             index+=1
         }
         return finalValue;
+    }*/
+    
+    
+    //diese Function erstellt einen Timestamp, da es Timestamp in Realm nicht gibt
+    func timestamp() -> String{
+        //erstellt den timestamp
+        //source: https://stackoverflow.com/questions/38248941/how-to-get-time-hour-minute-second-in-swift-3-using-nsdate/38248942#38248942
+        let calendar = Calendar.current
+        let time=calendar.dateComponents([.year,.month,.day,.hour,.minute,.second], from: Date())
+        //print("date: ","\(time.year!)-\(time.month!)-\(time.day!)-\(time.hour!)-\(time.minute!)-\(time.second!)")
+        let timestamp = "\(time.year!)-\(time.month!)-\(time.day!)-\(time.hour!)-\(time.minute!)-\(time.second!)"
+        //print("date ",timestamp )
+        return timestamp;
     }
+    
+    func realm(){
+        //https://realm.io/docs/swift/latest#models
+ 
+        
+        // kassenzettel model
+        class kassenzettel: Object {
+            @objc dynamic var kassenzettelID = ""
+            @objc dynamic var kassenzettelBildname = ""
+            //dem nächsten Attribut würde ich gerne die Function timestamp() übergeben, funktioniert aber nicht
+            @objc dynamic var kassenzettelErfassdatum = Date()
+            @objc dynamic var kassenzettelAusgelesenerText = ""
+            @objc dynamic var kassenzettelEndbetrag = 0.0
+            //folgende zwei Attribute sind optional
+            @objc dynamic var kassenzettelAusgelesenesDatum : Data? = nil
+            @objc dynamic var kassenzettelLinkZuiCloud: String? = nil
+            //One-to-many Relationship
+            @objc dynamic var endbetragBegriff: endbetragBegriff?
+            @objc dynamic var kategorie: kategorie?
+            @objc dynamic var haendler: haendler?
+            //PrimaryKey überschreiben
+            override static func primaryKey() -> String? {
+                return "kassenzettelID"
+            }
+            //auto-increment:
+            //https://academy.realm.io/posts/realm-primary-keys-tutorial/
+            //https://stackoverflow.com/questions/39579025/auto-increment-id-in-realm-swift-3-0
+        }
+        
+        // haendler model
+        class haendler: Object {
+            @objc dynamic var haendlerID = 0
+            @objc dynamic var haendlerName = ""
+            //PrimaryKey überschreiben
+            override static func primaryKey() -> String? {
+                return "haendlerID"
+            }
+        }
+        
+        // kategorie model
+        class kategorie: Object {
+            @objc dynamic var kategorieID = 0
+            @objc dynamic var kategorieName = 0
+            //PrimaryKey überschreiben
+            override static func primaryKey() -> String? {
+                return "kategorieID"
+            }
+        }
+        
+        // endbetragBegriff model
+        class endbetragBegriff: Object {
+            @objc dynamic var endbetragBegriffID = 0
+            @objc dynamic var endbetragBegriff = ""
+            //PrimaryKey überschreiben
+            override static func primaryKey() -> String? {
+                return "endbetragBegriffID"
+            }
+        }   
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @IBAction func buttonBack(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

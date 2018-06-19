@@ -154,6 +154,95 @@ Die Beziehungen zwischen den Tabellen sind alle 1:n-Beziehungen. So kann ein Kas
 
 Dieses Schema dient nur der Veranschaulichung meiner Gedanken hinter dem Aufbau. Leider kann dieser Aufbau nicht direkt in Realm importiert werden, so wie es bei MySQL möglich ist. 
 
+\section{Datenbank Realm}
+\subsection{Realm Installation}
+Wie zuvor evaluiert, habe ich mich für Realm entschieden. Um Realm in die iOS-App einbauen zu können, muss der App zuerst das Framework hinzugefügt werden. Dafür verwende ich das Cocoapods. Cocoapods ist ein Dependency-Manager\footnote{\label{foot:2} Mit einem Depencency-Manager (Dependency englisch: Abhängigkeit) können Frameworks über einfache Terminal-Befehle einem Xcode-Projekt hinzugefügt werden.} für Swift und Objective-C. Um damit starten zu können, muss das Programm Cocoapods zuerst installiert werden. Danach wird die Ordnerstruktur des Projekts im Terminal geöffnet und mit dem Befehl \textit{pod init} eine Pod-Datei erstellt. Die Diplomarbeit baut auf einer bereits bestehenden App auf, die bereits eine Pods Datei enthält. Damit ist die installation und die Erstellung der Pod-Datei nicht mehr nötig.
+
+Um nun fortzufahren, wird über den Terminal die Pod-Datei mit dem vi-Befehl geöffnet. Unter dem aus der Basis-App bereits bestehenden "pod TesseractOCRiOS"-Eintrag muss nun der Eintrag für das Realm-Framework hinzugefügt werden. Dafür wird der Eintrag "pod RealmSwift" zwischen "target" und "end" hinzugefügt. Nach diesem Eintrag kann noch eine Versions-Nummer angegeben werden, falls eine spezielle ältere Version verwendet werden möchte. Wird keine Versions-Nummer angegeben, so wird die bei Cocoapods aktuellste Version für die Installation verwendet. Im nachfolgenden Bild ist zu erkennen, wie die Pod-Datei dann aussieht. 
+
+\begin{figure}[!htb]
+  \centering
+     \includegraphics[width=1.0\textwidth]{bilder/realm-in-cocoapods-file.png}
+  \caption{Die Pod-Datei vor der Installation des Realm-Frameworks.}
+  \label{fig:Bild2}
+\end{figure}
+
+Dann kann die Pod-Datei gespeichert und geschlossen werden. Danach muss lediglich mit dem Befehl "pod install" der Installations-Modus con Cocoapods gestartet werden. Dies kann eine Weile dauern, da alle dafür nötigen Pakete heruntergeladen werden müssen. Das sieht dann wie folgt aus:
+
+\begin{figure}[!htb]
+  \centering
+     \includegraphics[width=1.0\textwidth]{bilder/realm-install-with-cocoapods.png}
+  \caption{Der Installations-Vorgang von Cocoapods.}
+  \label{fig:Bild2}
+\end{figure}
+
+Damit ist das Realm-Framework der App hinzugefügt und kann nun verwendet werden. 
+
+\subsection{Realm Implementierung}
+
+Auf der Realm-Homepage ist eine grosse Dokumentation zu finden, die die Verwendung und Anwendung von Realm beschreibt. Nach dieser Dokumentation habe ich nun das Datenbank-Schema aufgebaut. Dies sieht wie folgt aus:
+
+\begin{lstlisting}
+	// kassenzettel model
+	class kassenzettel: Object {
+		@objc dynamic var kassenzettelID = ""
+		@objc dynamic var kassenzettelBildname = ""
+		//dem nächsten Attribut würde ich gerne die Function
+		// timestamp() übergeben, funktioniert aber nicht
+		@objc dynamic var kassenzettelErfassdatum = Date()
+		@objc dynamic var kassenzettelAusgelesenerText = ""
+		@objc dynamic var kassenzettelEndbetrag = 0.0
+		//folgende zwei Attribute sind optional
+		@objc dynamic var kassenzettelAusgelesenesDatum
+			 : Data? = nil
+		@objc dynamic var kassenzettelLinkZuiCloud	
+			: String? = nil
+		//One-to-many Relationship
+		@objc dynamic var endbetragBegriff
+			: endbetragBegriff?
+		@objc dynamic var kategorie: kategorie?
+		@objc dynamic var haendler: haendler?
+		//PrimaryKey überschreiben
+		override static func primaryKey() -> String? {
+			return "kassenzettelID"
+		}
+	}
+        
+	// haendler model
+	class haendler: Object {
+		@objc dynamic var haendlerID = 0
+		@objc dynamic var haendlerName = ""
+		//PrimaryKey überschreiben
+		override static func primaryKey() -> String? {
+			return "haendlerID"
+		}
+	}
+        
+	// kategorie model
+	class kategorie: Object {
+		@objc dynamic var kategorieID = 0
+		@objc dynamic var kategorieName = 0
+		//PrimaryKey überschreiben
+		override static func primaryKey() -> String? {
+			return "kategorieID"
+		}
+	}
+        
+	// endbetragBegriff model
+	class endbetragBegriff: Object {
+		@objc dynamic var endbetragBegriffID = 0
+		@objc dynamic var endbetragBegriff = ""
+		//PrimaryKey überschreiben
+		override static func primaryKey() -> String? {
+			return "endbetragBegriffID"
+		}
+	}
+\end{lstlisting}
+
+Damit ist das Schema implementiert mit PrimaryKeys und der One-to-Many-Beziehungen. Das einzige was noch fehlt, ist die auto-increment-Funktion für die PrimaryKeys. Die auto-increment-Funktion ist aber bis zu dieser verwendeten Version von Realm nicht verfügbar. Realm sieht keinen grossen Nutzen darin und beschreibt lediglich dass stattdessen zufällig generierte Zahlen- oder Buchstabenkonstellationen als PrimaryKeys verwendet werden sollen. Als Alternative gibt Realm an, den PrimaryKey des letzten Datenbank-Eintrags manuell auszulesen und um eins zu erhöht. 
+
+
+
 
 \section{Produktiver Einsatz}
 
@@ -182,7 +271,8 @@ Video-Anleitung für Scrum Nutzung in
 \url{}
 OCR:
 \url{https://de.wikipedia.org/wiki/Texterkennung}
-\url{}
+Cocoapods
+\url{https://cocoapods.org}
 \url{}
 \url{}
 \url{}

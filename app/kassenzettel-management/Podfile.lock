@@ -1,12 +1,26 @@
 PODS:
+  - Realm (3.3.1):
+    - Realm/Headers (= 3.3.1)
+  - Realm/Headers (3.3.1)
+  - RealmSwift (3.3.1):
+    - Realm (= 3.3.1)
   - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
+  - RealmSwift
   - TesseractOCRiOS (= 4.0.0)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Realm
+    - RealmSwift
+    - TesseractOCRiOS
+
 SPEC CHECKSUMS:
+  Realm: 63ebf4903b446b0bdf2131244eb1e1549925c724
+  RealmSwift: f28fe8507bdfb8f1c924962401b83e7b9d7abb5c
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: bb41993c140df238f6b0e91bcd329c47706797fa
+PODFILE CHECKSUM: c89610218324fb75f168ba44be9416b4150a8620
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
