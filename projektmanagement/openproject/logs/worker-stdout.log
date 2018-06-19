@@ -682,3 +682,20 @@ Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=271) RUNNING
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=271) COMPLETED after 0.1398
 [Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 7.5291 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (8 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-18T16:24:49+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (8 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 15.9470 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (9 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-19T06:32:02+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (9 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 0.6457 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=272) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=272) COMPLETED after 0.1993
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=273) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=273) COMPLETED after 0.1444
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=274) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=274) COMPLETED after 0.1687
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=275) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=275) COMPLETED after 0.1760
+[Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 5.5591 j/s, 0 failed

@@ -103,9 +103,24 @@ Mit diesem Befehl konnte ich den Container erfolgreich erstellen und dann auch i
 Nach der Installation ist bereits ein Administrator-Account erstellt, der für den ersten Login verwendet werden kann. Die Zugangsdaten stehen in der Installations-Anleitung. Nachdem Login mit dem Admin muss zuerst einmal ein neues Projekt erstellt werden. In diesem Projekt können nun \textit{Work packages}, also Arbeitspakete definiert werden, welchen nur einzelne Aufgaben oder ganze Meilensteine zugewiesen werden können. Da diese Einstellungen bzw. Erstellungen der Arbeitspakete als Projekt-Administrator mit dem bereits installierten Administrator definiert werden, habe ich noch einen weiteren Benutzer mit meinem Namen hinzugefügt. Diesem Benutzer werden dann die Arbeitspakete und deren enthaltener Aufgaben und Meilensteine zugewiesen. 
 
 
+\section{Evaluierung des Datenbank-Frameworks}
 
+Im zuvor durchgeführten Projekt hatte ich bereits die Vorstellung, zwischen dem ausgelesenen Text aus den Kassenzettel-Abbildern und der Benutzeroberfläche, eine Datenbank bereitzustellen. In diese Datenbank können dann die ausgelesenen Endbeträge der Kassenzettel, mit dem jeweiligen Erfass-Datum und noch weiteren Daten zwischengespeichert werden. So hatte ich mich bereits während dem ersten Projekts bezüglich einer lokalen Datenbank für eine iOS-App schlau gemacht. Hier sind mir nach diversen Berichten \textit{SQLite} und \textit{Apple Core Date} im Gedächtnis geblieben. Bei der aktuellen Evaluierung bin ich dann noch auf eine weitere Möglichkeit gestossen, die Daten lokal in der App abspeichern zu können. Diese Option heisst \textit{Realm} und ist ein externes Framework für einen Datenbank-Aufbau in einer App, mit einer steigenden Begeisterung bei Programmierern. 
 
+Da leider nicht genug Zeit in der Diplomarbeit übrig war, konnte ich diese drei Optionen selbst nicht mit einem Testaufbau testen. Die nachfolgenden Vergleiche beziehen sich daher auf verschiedene Berichte, die diese drei Optionen verglichen haben. 
 
+\subsection{SQLite}
+SQLite ist die schlankere Form von MySQL und damit ein vollumfängliches Datenbank-Framework für iOS das auf Tabellen und Beziehungen (Relations) aufbaut, wie es wir es im Datenbank-Unterricht gelernt haben. SQLite kann mit einer grossen Menge Daten umgehen und die Daten können mit einfachen SQL-Querys (Abfragen) eingefügt oder aufgerufen werden. Jedoch sind laut den verschiedenen Internet-Beiträgen haben diese Querys als iOS-Framework keine hohe Performance und ist wohl recht aufwändig in der Implementierung in die iOS-App. 
+
+\subsection{Apple Core Data}
+
+Apple Core Data ist der von Apple entwickelte Datenbank-Aufbau. Wobei Core Data anders als die üblichen Datenbank-Aufbauten gehandhabt wird. Core Data selbst ist keine Datenbank. Es baut auf SQLite auf und verwaltet die Daten als Objekte. Das macht die Verarbeitung von Daten recht schnell. Allerdings ist der Aufbau von Core Data recht kompliziert und verlangt eine grosse zeitliche Einarbeitung. 
+
+\subsection{Realm}
+
+Realm ist ein noch relativ junges Framework und verarbeitet die Daten, ähnlich wie Core Data, in Objekten. Es ist aber ein relativ schlankes Framework, welches eine sehr hohe Performance bietet. Auch die Verwendung von Realm kann mit weniger Code-Zeilen verwendet werden, als mit Core Data. Was ich als einen weiteren Vorteil sehe, ist dass Realm auch Plattformübergreifend verwendet werden kann. Soll die App also später in einer produktiven Umgebung auf das Android-System migriert werden, können aus dem Realm-Aufbau der iOS-App einfach die Datenbank-Dateien in einen Android-Realm-Aufbau übernommen werden. 
+
+Aus den oben beschriebenen Vergleichen werde ich die Datenbank für dieses Projekt in Realm umsetzen. 
 
 
 

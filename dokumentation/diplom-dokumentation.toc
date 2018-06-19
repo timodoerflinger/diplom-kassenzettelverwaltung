@@ -2,5 +2,9 @@
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
 \contentsline {section}{\numberline {2}GitHub-Repository}{4}{section.2}
 \contentsline {section}{\numberline {3}Projektmanagement - Scrum}{4}{section.3}
-\contentsline {section}{\numberline {4}Quellenverzeichnis}{5}{section.4}
-\contentsline {section}{\numberline {5}Bilderverzeichnis}{5}{section.5}
+\contentsline {section}{\numberline {4}Evaluierung des Datenbank-Frameworks}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}SQLite}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Apple Core Data}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Realm}{6}{subsection.4.3}
+\contentsline {section}{\numberline {5}Quellenverzeichnis}{7}{section.5}
+\contentsline {section}{\numberline {6}Bilderverzeichnis}{7}{section.6}
