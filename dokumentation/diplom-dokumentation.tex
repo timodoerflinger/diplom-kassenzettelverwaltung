@@ -62,8 +62,10 @@ In meiner Diplomarbeit erstelle ich eine App zur Kassenzettel-Verwaltung. Für me
 \newpage
 
 
-\section{GitHub-Repository}
 
+
+\section{GitHub-Repository}
+Für diese Diplomarbeit verwende ich Git und GitHub. Auf GitHub habe ich ein Repository mit dem Namen \textit{diplom-kassenzettelverwaltung} erstellt. Auf diesem werden alle erstellten Dateien gesichert. Dafür habe ich das Repository auf mein MacBook über den Terminal geklont. In diesem lokalen Klon werden alle Dateien wie die Dokumentation, die erstellte iOS-App und weitere Dateien erstellt und regelmässig mit den passenden \textit{Commits} auf das Repository auf GitHub \textit{gepusht}.
 
 \section{Projektmanagement - Scrum}
 
@@ -102,6 +104,10 @@ Mit diesem Befehl konnte ich den Container erfolgreich erstellen und dann auch i
 
 Nach der Installation ist bereits ein Administrator-Account erstellt, der für den ersten Login verwendet werden kann. Die Zugangsdaten stehen in der Installations-Anleitung. Nachdem Login mit dem Admin muss zuerst einmal ein neues Projekt erstellt werden. In diesem Projekt können nun \textit{Work packages}, also Arbeitspakete definiert werden, welchen nur einzelne Aufgaben oder ganze Meilensteine zugewiesen werden können. Da diese Einstellungen bzw. Erstellungen der Arbeitspakete als Projekt-Administrator mit dem bereits installierten Administrator definiert werden, habe ich noch einen weiteren Benutzer mit meinem Namen hinzugefügt. Diesem Benutzer werden dann die Arbeitspakete und deren enthaltener Aufgaben und Meilensteine zugewiesen. 
 
+\section{Basis-App}
+In einem Projekt während dem Semester vor der Diplomarbeit habe ich bereits eine App erstellt, die als Basis für diese Diplomarbeit dienen soll. Diese App hat Tesseract implementiert. Tesseract ist ein OCR-Framework\footnote{\label{foot:1}OCR: (englisch: \textit{optical character recognition}) steht für eine automatisierte Erkennung eines Texts in einem Bild }, welches den Text von einem Bild auslesen kann. Die App ist soweit aufgebaut, dass das Abbild eines Kassenzettels mit OpenCV durch diverse Bildaufbereitungs-Funktionen soweit aufgebereitet wird, dass die Ausleserate von Tesseract verbessert wird. So kann die App nach dem Aufbereiten des Kassenzettel-Abbildes mit Tesseract den Text auslesen. Dieser ausgelesene Text wird dann so weiterverarbeitet, dass der gezahlte Endbetrag aus dem ausgelesenen Text gefiltert wird. 
+
+Dieser ausgelesene und gefilterte Endbetrag wird dann für die weitere Verarbeitung bereitgestellt. An dieser Stelle setzt die Diplomarbeit nun an verarbeitet den ausglesenen Endbetrag nun weiter. 
 
 \section{Evaluierung des Datenbank-Frameworks}
 
@@ -122,8 +128,48 @@ Realm ist ein noch relativ junges Framework und verarbeitet die Daten, ähnlich w
 
 Aus den oben beschriebenen Vergleichen werde ich die Datenbank für dieses Projekt in Realm umsetzen. 
 
+\section{Datenbank-Schema}
+
+Für eine saubere Darstellung des Datenbank-Aufbaus, habe ich ein Schema erstellt. Das Schema habe ich in MySQL-Workbench erstellt. Mit MySQL-Workbench können Datenbank-Schemas mit einer guten Darstellung aufgebaut und veranschaulicht werden. 
+
+\begin{figure}[!htb]
+  \centering
+     \includegraphics[width=0.9\textwidth]{bilder/datenbank-schema.png}
+  \caption{Datenbank-Schema}
+  \label{fig:Bild1}
+\end{figure}
+
+Die Tabelle \textit{kassenzettel} enthält alle für den Moment nötigen Attribute. Da nicht genug Zeit zur Verfügung steht, alle gekauften Artikel von dem Kassenzettel auszulesen, wird lediglich der Endbetrag ausgelesen. Daher ist es hier nicht nötig, eine weitere Tabelle oder weitere Attribute für die einzeln gekauften Artikel zu berücksichtigen. 
+Wir ein Kassenzettel fotografiert und in die App eingelesen, bekommt das Kassenzettel-Abbild einen Datenbankeintrag mit einer einzigartigen (anderen Begriff finden) ID. Darüber hinaus wird der Bildname aus dem System (iPhone) ausgelesen und dem Datenbankattribut \textit{kassenzettelBildname} übergeben. Der von Tesseract ausgelesene Text des Kassenzettel-Abbildes wird als dieser in dem Attribut \textit{kassenzettelAusgelesenerText} übergeben. Der aus diesem ausgelesenen Text extrahierte Endbetrag wird dem Attribut \textit{kassenzetteEndbetrag} übergeben. Alle bisherigen Attribute sind als \textit{Not-Null} definiert. Das Bedeutet dass diese Attribute zwingend einen Wert für den Datenbankeintrag erhalten müssen. Das Attribut \textit{kassenzettelAusgelesenesDatum} und \textit{kassenzettelLinkZuiCloud} sind nicht zwingend nötig. Das erstere der beiden Attribute wird nicht immer erfolgreich von Tesseract ausgelesen und soll damit nicht Teil dieses Projekts sein. Das zweite der beiden Attribute ist nicht zwingend, da nicht jeder Kassenzettel in die iCloud gesichert werden möchte. Diese Funktion soll speziell für Kassenzettel zur Verfügung stehen, die wichtige Garantieansprüche beinhalten. 
+
+Neben der Tabelle \textit{kassenzettel} gibt es noch die Tabelle \textit{haendler}, welche die einzelnen Supermärkte, Tankstellen oder Läden beinhaltet.
+
+Die Tabelle \textit{kategorie} enthält die zur Verfügung stehenden Kategorien für die Kassenzettel. Hier sollen in diesem Projekt lediglich die Kategorien Lebensmittel, Tanken und XXX zur manuellen Anwahl für den Anwender der App zur Verfügung stehen. In diesem Projekt ist es möglich, lediglich eine Kategorie pro eingelesenem Kassenzettel zu wählen. Das bringt natürlich das Problem mit sich, falls ein Kassenzettel Artikel beinhaltet, die auf mehrere Varianten zutrifft. Falls also ein App-Anwender beim tanken noch Brot und Grillkohle gekauft hat, so würde der Kassenzettel zu allen drei Varianten passen. Das müsste dann für eine produktive Verwendung noch weiter angepasst werden, indem mehrere Kategorien pro Kassenzettel verwendet werden könnten. 
+Auch könnte die manuelle Anwahl einer Kategorie durch eine \textit{KI} bzw. \textit{Machine Learning} ersetzt werden. So müsste der App-Anwender diese Kategorien-Anwahl nicht mehr selbst erledigen, was die Benutzerfreundlichkeit einfacher machen würde (von einer zuverlässigen Auswahl der Kategorien mittels des Machine Learning vorausgesetzt).  
+
+Die Tabelle \textit{endbetrag} enthält die auf den Kassenzettel befindlichen Endbetrags-Begriffe. So werden die gezahlten Endbeträge auf den Kassenzetteln mit den verschiedensten Begriffen angeführt. So zum Beispiel mit Summe, Bar, Total und vielen weiteren Begriffen mehr. Diesbezüglich gibt es keine Landesweite oder eine andere Beschränkung oder eine gewisse Norm des Kassenzettel-Aufbaus. Hier könnte für eine produktive App die Erweiterung dieser Begriffe von dem App-Anwender über die Einstellungen getätigt werden, falls der Begriff vor dem Endbetrag auf dem Kassenzettel der App nicht bekannt ist und dieser somit in der Suchliste erweitert werden müsste. 
+Auch diese Funktion könnte mittels \textit{KI} oder \textit{Machine Learning} eventuell gelöst und damit vereinfacht werden. 
+
+Die Beziehungen zwischen den Tabellen sind alle 1:n-Beziehungen. So kann ein Kassenzettel immer nur von einem Händler ausgestellt worden sein und lediglich einen Endbetrag enthalten. Wie bereits erwähnt könnte ein Einkauf mehrere Kategorien entsprechen, in diese Projekt wird dies aber nicht beachtet. So kann ein Kassenzettel in diesem Projekt lediglich eine Kategorie besitzen. 
+
+Dieses Schema dient nur der Veranschaulichung meiner Gedanken hinter dem Aufbau. Leider kann dieser Aufbau nicht direkt in Realm importiert werden, so wie es bei MySQL möglich ist. 
 
 
+\section{Produktiver Einsatz}
+
+Hier Beschreiben, was für einen produktiven Einsatz nötig wäre:
+Zuverlässigere OCR-Software, hier vielleicht auf keine Open Source-Lösung setzen (auf die Lizenzierung achten)
+
+
+
+\section{Verwendete Software}
+
+Hier die Beschreibung der verwendeten Software, Programme und Frameworks. 
+
+Ganz wichtig hier ist auch die Beschreibung der Versionen der Programme!!!!!!!!!!!!!!!!!!!!!!!!
+
+\subsection{MySQL-Workbench}
+Diese können dann auch direkt in MySQL für die Datenbank importiert werden, womit dann die entsprechenden Tabellen und deren Beziehungen aufgebaut werden. 
 
 \section{Quellenverzeichnis}
 
@@ -134,7 +180,8 @@ Anleitung für OpenProject in Docker
 Video-Anleitung für Scrum Nutzung in 
 \url{https://www.openproject.org/collaboration-software-features/scrum-agile-project-management/}
 \url{}
-\url{}
+OCR:
+\url{https://de.wikipedia.org/wiki/Texterkennung}
 \url{}
 \url{}
 \url{}
