@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DE1FE4AE0D5983BEB5E0CBE /* Pods_kassenzettel_management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C25A7559296C860CA149CD /* Pods_kassenzettel_management.framework */; };
+		25428E7520DB961000B3D6CD /* manageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25428E7420DB961000B3D6CD /* manageViewController.swift */; };
 		25520C4220BDD466000069AB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4120BDD466000069AB /* CoreImage.framework */; };
 		25520C4420BDD470000069AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4320BDD470000069AB /* Foundation.framework */; };
 		25520C4620BDD479000069AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4520BDD479000069AB /* UIKit.framework */; };
 		25520C4A20BDD51C000069AB /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25520C4820BDD51C000069AB /* OpenCVWrapper.mm */; };
 		25520C4C20BDD720000069AB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4B20BDD720000069AB /* opencv2.framework */; };
+		2561734B20DA494100CFE75F /* realmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561734A20DA494100CFE75F /* realmObjects.swift */; };
 		2585605F20BDDB8F00F32671 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2585605C20BDDB8F00F32671 /* UIImage+OpenCV.mm */; };
 		2585606020BDDB8F00F32671 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585605E20BDDB8F00F32671 /* UIImage+Rotate.m */; };
 		2585606320BDDBAA00F32671 /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2585606220BDDBA900F32671 /* stitching.cpp */; };
@@ -19,18 +22,19 @@
 		2585606F20BDDC6000F32671 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2585606E20BDDC6000F32671 /* AVFoundation.framework */; };
 		2585607020BDDC7600F32671 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2585606420BDDC0400F32671 /* CoreMedia.framework */; };
 		25883E75206CF2CE00BFC687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25883E74206CF2CE00BFC687 /* AppDelegate.swift */; };
-		25883E77206CF2CE00BFC687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25883E76206CF2CE00BFC687 /* ViewController.swift */; };
+		25883E77206CF2CE00BFC687 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25883E76206CF2CE00BFC687 /* cameraViewController.swift */; };
 		25883E7A206CF2CE00BFC687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25883E78206CF2CE00BFC687 /* Main.storyboard */; };
 		25883E7C206CF2CE00BFC687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25883E7B206CF2CE00BFC687 /* Assets.xcassets */; };
 		25883E7F206CF2CE00BFC687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25883E7D206CF2CE00BFC687 /* LaunchScreen.storyboard */; };
+		25CC5A4920DA54F200C973D4 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC5A4820DA54F200C973D4 /* settingsViewController.swift */; };
 		25F96E3B206D072700D9AC7D /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 25F96E3A206D072700D9AC7D /* tessdata */; };
 		25F96E3D206D1E3A00D9AC7D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F96E3C206D1E3A00D9AC7D /* libz.tbd */; };
-		25F96E47206D393600D9AC7D /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F96E46206D393600D9AC7D /* photoViewController.swift */; };
+		25F96E47206D393600D9AC7D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F96E46206D393600D9AC7D /* homeViewController.swift */; };
 		25F96E48206D444000D9AC7D /* Pods_tesseractTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729C417EDD0F25EFFC2DAFF9 /* Pods_tesseractTest.framework */; };
-		52EDAA08B726970F67FC751E /* Pods_kassenzettel_management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A81920B4C01FD9EADAE6CE4 /* Pods_kassenzettel_management.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25428E7420DB961000B3D6CD /* manageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageViewController.swift; sourceTree = "<group>"; };
 		25520C4120BDD466000069AB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		25520C4320BDD470000069AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25520C4520BDD479000069AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -39,6 +43,7 @@
 		25520C4920BDD51C000069AB /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
 		25520C4B20BDD720000069AB /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		25520C4D20BDD88B000069AB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2561734A20DA494100CFE75F /* realmObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realmObjects.swift; sourceTree = "<group>"; };
 		2585605B20BDDB8F00F32671 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		2585605C20BDDB8F00F32671 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		2585605D20BDDB8F00F32671 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
@@ -53,20 +58,21 @@
 		2585606E20BDDC6000F32671 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		25883E71206CF2CE00BFC687 /* kassenzettel-management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kassenzettel-management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25883E74206CF2CE00BFC687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25883E76206CF2CE00BFC687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25883E76206CF2CE00BFC687 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
 		25883E79206CF2CE00BFC687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25883E7B206CF2CE00BFC687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25883E7E206CF2CE00BFC687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25883E80206CF2CE00BFC687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CC5A4820DA54F200C973D4 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		25F96E3A206D072700D9AC7D /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		25F96E3C206D1E3A00D9AC7D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		25F96E46206D393600D9AC7D /* photoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
-		34A3D1C98EED7DAE7837F4FA /* Pods-kassenzettel-management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kassenzettel-management.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kassenzettel-management/Pods-kassenzettel-management.debug.xcconfig"; sourceTree = "<group>"; };
+		25F96E46206D393600D9AC7D /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		434AE1FF71EE2F778C289409 /* Pods-tesseractTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesseractTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesseractTest/Pods-tesseractTest.release.xcconfig"; sourceTree = "<group>"; };
-		5A81920B4C01FD9EADAE6CE4 /* Pods_kassenzettel_management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kassenzettel_management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C25A7559296C860CA149CD /* Pods_kassenzettel_management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kassenzettel_management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C6C61566819C455655D167 /* Pods-tesseractTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesseractTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesseractTest/Pods-tesseractTest.debug.xcconfig"; sourceTree = "<group>"; };
 		729C417EDD0F25EFFC2DAFF9 /* Pods_tesseractTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesseractTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3EB1375AAEAF4B2A6664423 /* Pods-kassenzettel-management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kassenzettel-management.release.xcconfig"; path = "Pods/Target Support Files/Pods-kassenzettel-management/Pods-kassenzettel-management.release.xcconfig"; sourceTree = "<group>"; };
+		B657DEAA4F9A642E40F7F76E /* Pods-kassenzettel-management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kassenzettel-management.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kassenzettel-management/Pods-kassenzettel-management.debug.xcconfig"; sourceTree = "<group>"; };
+		CAAF94332497F65370F505AB /* Pods-kassenzettel-management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kassenzettel-management.release.xcconfig"; path = "Pods/Target Support Files/Pods-kassenzettel-management/Pods-kassenzettel-management.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,7 @@
 				25520C4220BDD466000069AB /* CoreImage.framework in Frameworks */,
 				25F96E3D206D1E3A00D9AC7D /* libz.tbd in Frameworks */,
 				25F96E48206D444000D9AC7D /* Pods_tesseractTest.framework in Frameworks */,
-				52EDAA08B726970F67FC751E /* Pods_kassenzettel_management.framework in Frameworks */,
+				1DE1FE4AE0D5983BEB5E0CBE /* Pods_kassenzettel_management.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +117,27 @@
 		25883E73206CF2CE00BFC687 /* kassenzettel-management */ = {
 			isa = PBXGroup;
 			children = (
+				25CC5A4720DA50C900C973D4 /* OpenCV */,
+				25883E74206CF2CE00BFC687 /* AppDelegate.swift */,
+				25883E76206CF2CE00BFC687 /* cameraViewController.swift */,
+				25428E7420DB961000B3D6CD /* manageViewController.swift */,
+				25F96E46206D393600D9AC7D /* homeViewController.swift */,
+				25CC5A4820DA54F200C973D4 /* settingsViewController.swift */,
+				2561734A20DA494100CFE75F /* realmObjects.swift */,
+				25F96E3A206D072700D9AC7D /* tessdata */,
+				25883E78206CF2CE00BFC687 /* Main.storyboard */,
+				25883E7B206CF2CE00BFC687 /* Assets.xcassets */,
+				25883E7D206CF2CE00BFC687 /* LaunchScreen.storyboard */,
+				25883E80206CF2CE00BFC687 /* Info.plist */,
+			);
+			path = "kassenzettel-management";
+			sourceTree = "<group>";
+		};
+		25CC5A4720DA50C900C973D4 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				2585606220BDDBA900F32671 /* stitching.cpp */,
+				2585606120BDDBA900F32671 /* stitching.h */,
 				2585605B20BDDB8F00F32671 /* UIImage+OpenCV.h */,
 				2585605C20BDDB8F00F32671 /* UIImage+OpenCV.mm */,
 				2585605D20BDDB8F00F32671 /* UIImage+Rotate.h */,
@@ -118,19 +145,9 @@
 				25520C4D20BDD88B000069AB /* PrefixHeader.pch */,
 				25520C4920BDD51C000069AB /* OpenCVWrapper.h */,
 				25520C4820BDD51C000069AB /* OpenCVWrapper.mm */,
-				25F96E46206D393600D9AC7D /* photoViewController.swift */,
-				25883E74206CF2CE00BFC687 /* AppDelegate.swift */,
-				25883E76206CF2CE00BFC687 /* ViewController.swift */,
-				25F96E3A206D072700D9AC7D /* tessdata */,
-				25883E78206CF2CE00BFC687 /* Main.storyboard */,
-				25883E7B206CF2CE00BFC687 /* Assets.xcassets */,
-				25883E7D206CF2CE00BFC687 /* LaunchScreen.storyboard */,
-				25883E80206CF2CE00BFC687 /* Info.plist */,
-				2585606220BDDBA900F32671 /* stitching.cpp */,
-				2585606120BDDBA900F32671 /* stitching.h */,
 				25520C4720BDD51B000069AB /* kassenzettel-management-Bridging-Header.h */,
 			);
-			path = "kassenzettel-management";
+			name = OpenCV;
 			sourceTree = "<group>";
 		};
 		8E56EEE3A3101CBBE9E1D92D /* Frameworks */ = {
@@ -148,7 +165,7 @@
 				25520C4120BDD466000069AB /* CoreImage.framework */,
 				25F96E3C206D1E3A00D9AC7D /* libz.tbd */,
 				729C417EDD0F25EFFC2DAFF9 /* Pods_tesseractTest.framework */,
-				5A81920B4C01FD9EADAE6CE4 /* Pods_kassenzettel_management.framework */,
+				49C25A7559296C860CA149CD /* Pods_kassenzettel_management.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,8 +175,8 @@
 			children = (
 				67C6C61566819C455655D167 /* Pods-tesseractTest.debug.xcconfig */,
 				434AE1FF71EE2F778C289409 /* Pods-tesseractTest.release.xcconfig */,
-				34A3D1C98EED7DAE7837F4FA /* Pods-kassenzettel-management.debug.xcconfig */,
-				A3EB1375AAEAF4B2A6664423 /* Pods-kassenzettel-management.release.xcconfig */,
+				B657DEAA4F9A642E40F7F76E /* Pods-kassenzettel-management.debug.xcconfig */,
+				CAAF94332497F65370F505AB /* Pods-kassenzettel-management.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -283,13 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2561734B20DA494100CFE75F /* realmObjects.swift in Sources */,
 				25520C4A20BDD51C000069AB /* OpenCVWrapper.mm in Sources */,
-				25883E77206CF2CE00BFC687 /* ViewController.swift in Sources */,
+				25883E77206CF2CE00BFC687 /* cameraViewController.swift in Sources */,
 				2585606020BDDB8F00F32671 /* UIImage+Rotate.m in Sources */,
-				25F96E47206D393600D9AC7D /* photoViewController.swift in Sources */,
+				25CC5A4920DA54F200C973D4 /* settingsViewController.swift in Sources */,
+				25F96E47206D393600D9AC7D /* homeViewController.swift in Sources */,
 				25883E75206CF2CE00BFC687 /* AppDelegate.swift in Sources */,
 				2585605F20BDDB8F00F32671 /* UIImage+OpenCV.mm in Sources */,
 				2585606320BDDBAA00F32671 /* stitching.cpp in Sources */,
+				25428E7520DB961000B3D6CD /* manageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +446,7 @@
 		};
 		25883E84206CF2CE00BFC687 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34A3D1C98EED7DAE7837F4FA /* Pods-kassenzettel-management.debug.xcconfig */;
+			baseConfigurationReference = B657DEAA4F9A642E40F7F76E /* Pods-kassenzettel-management.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -452,7 +472,7 @@
 		};
 		25883E85206CF2CE00BFC687 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3EB1375AAEAF4B2A6664423 /* Pods-kassenzettel-management.release.xcconfig */;
+			baseConfigurationReference = CAAF94332497F65370F505AB /* Pods-kassenzettel-management.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -269,3 +269,5 @@ App 337 stdout:
 App 337 stdout: NoMethodError (undefined method `+' for nil:NilClass):
 App 337 stdout:   
 App 337 stdout: app/middleware/reset_current_user.rb:47:in `call'
+[ 2018-06-20 07:24:14.5642 264/7fc6d9b71700 age/Cor/SecurityUpdateChecker.h:344 ]: Security update check failed: Couldn't resolve host name while connecting to securitycheck.phusionpassenger.com (check your DNS) (next check in 24 hours)
+[ 2018-06-21 07:25:49.5091 264/7fc6d9b71700 age/Cor/SecurityUpdateChecker.h:344 ]: Security update check failed: Couldn't resolve host name while connecting to securitycheck.phusionpassenger.com (check your DNS) (next check in 24 hours)
