@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DE1FE4AE0D5983BEB5E0CBE /* Pods_kassenzettel_management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C25A7559296C860CA149CD /* Pods_kassenzettel_management.framework */; };
-		25428E7520DB961000B3D6CD /* manageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25428E7420DB961000B3D6CD /* manageViewController.swift */; };
+		25428E7720DCEC7E00B3D6CD /* manageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25428E7620DCEC7E00B3D6CD /* manageViewController.swift */; };
 		25520C4220BDD466000069AB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4120BDD466000069AB /* CoreImage.framework */; };
 		25520C4420BDD470000069AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4320BDD470000069AB /* Foundation.framework */; };
 		25520C4620BDD479000069AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4520BDD479000069AB /* UIKit.framework */; };
@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25428E7420DB961000B3D6CD /* manageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageViewController.swift; sourceTree = "<group>"; };
+		25428E7620DCEC7E00B3D6CD /* manageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manageViewController.swift; sourceTree = "<group>"; };
 		25520C4120BDD466000069AB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		25520C4320BDD470000069AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25520C4520BDD479000069AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -120,7 +120,7 @@
 				25CC5A4720DA50C900C973D4 /* OpenCV */,
 				25883E74206CF2CE00BFC687 /* AppDelegate.swift */,
 				25883E76206CF2CE00BFC687 /* cameraViewController.swift */,
-				25428E7420DB961000B3D6CD /* manageViewController.swift */,
+				25428E7620DCEC7E00B3D6CD /* manageViewController.swift */,
 				25F96E46206D393600D9AC7D /* homeViewController.swift */,
 				25CC5A4820DA54F200C973D4 /* settingsViewController.swift */,
 				2561734A20DA494100CFE75F /* realmObjects.swift */,
@@ -309,7 +309,7 @@
 				25883E75206CF2CE00BFC687 /* AppDelegate.swift in Sources */,
 				2585605F20BDDB8F00F32671 /* UIImage+OpenCV.mm in Sources */,
 				2585606320BDDBAA00F32671 /* stitching.cpp in Sources */,
-				25428E7520DB961000B3D6CD /* manageViewController.swift in Sources */,
+				25428E7720DCEC7E00B3D6CD /* manageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

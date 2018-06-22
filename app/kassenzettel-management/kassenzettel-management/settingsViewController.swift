@@ -16,12 +16,10 @@ class settingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
-        
     }
     
-    
-    
+    //Menu-Taskbar
+    //https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
     @IBAction func cameraSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "cameraScene") else {
             print("View controller Six not found")
@@ -29,8 +27,6 @@ class settingsViewController: UIViewController {
         }
         present(vc, animated: true, completion: nil)
     }
-    
-    
     @IBAction func homeSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "homeScene") else {
             print("View controller Six not found")
@@ -38,7 +34,6 @@ class settingsViewController: UIViewController {
         }
         present(vc, animated: true, completion: nil)
     }
-    
     @IBAction func preferencesSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "preferencesScene") else {
             print("View controller Six not found")
@@ -46,7 +41,6 @@ class settingsViewController: UIViewController {
         }
         present(vc, animated: true, completion: nil)
     }
-    
 }
 
 class personalBudget{

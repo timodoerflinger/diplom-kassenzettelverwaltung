@@ -46,8 +46,8 @@
                                     <action selector="imageTakePhotoForStitching:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MFa-ud-FVa"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluescreen" translatesAutoresizingMaskIntoConstraints="NO" id="Q37-sb-7br">
-                                <rect key="frame" x="35" y="57" width="301" height="125"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b_1_q_0_p_0_2" translatesAutoresizingMaskIntoConstraints="NO" id="Q37-sb-7br">
+                                <rect key="frame" x="35" y="20" width="301" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lav-kw-Wk3">
@@ -119,14 +119,6 @@
                                     <action selector="geladenesPhotoVerarbeiten:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUO-hn-oPO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxx-oN-Ghk">
-                                <rect key="frame" x="164" y="593" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttontest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kdR-FK-LIv"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="ik7-6Q-e6g"/>
@@ -149,9 +141,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="da8-El-XdP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b_1_q_0_p_0_2" translatesAutoresizingMaskIntoConstraints="NO" id="da8-El-XdP">
                                 <rect key="frame" x="67" y="20" width="240" height="289"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGE-aN-SZp">
                                 <rect key="frame" x="43" y="358" width="288" height="100"/>
@@ -175,7 +167,7 @@
                                 <rect key="frame" x="163" y="543" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="iCloudSpeicherung:" destination="ltH-i1-bFd" eventType="valueChanged" id="B8K-6e-IQI"/>
+                                    <action selector="iCloudSwitchToggled:" destination="ltH-i1-bFd" eventType="valueChanged" id="6A9-Yv-Xjf"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vR-bo-Jba">
@@ -191,7 +183,7 @@
                         <viewLayoutGuide key="safeArea" id="eBc-5r-M3G"/>
                     </view>
                     <connections>
-                        <outlet property="icloudSpeicherung" destination="nwM-Fw-0rH" id="Z2g-0H-0gE"/>
+                        <outlet property="iCloudSwitch" destination="nwM-Fw-0rH" id="7kQ-x6-AoL"/>
                         <outlet property="imageViewManaged" destination="da8-El-XdP" id="lyc-sr-DzQ"/>
                         <outlet property="kategorieSwitcher" destination="hGE-aN-SZp" id="VE7-Xq-FL8"/>
                     </connections>
@@ -399,6 +391,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bluescreen" width="16" height="16"/>
+        <image name="b_1_q_0_p_0_2" width="281" height="500"/>
     </resources>
 </document>
