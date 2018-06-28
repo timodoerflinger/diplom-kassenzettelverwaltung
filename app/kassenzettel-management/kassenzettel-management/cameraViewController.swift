@@ -26,8 +26,6 @@ class cameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view,
-    
-        
     }
     
     //source: https://www.youtube.com/watch?v=4CbcMZOSmEk
@@ -77,6 +75,7 @@ class cameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         present(vc, animated: true, completion: nil)
     }
     
+    //Funktion aus dem vorangegangenen Projekt
     @IBAction func imageTakePhotoForStitching(_ sender: UIButton) {
         let imagePickerControllerTwo = UIImagePickerController()
         imagePickerControllerTwo.delegate = self
@@ -93,7 +92,7 @@ class cameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.present(actionSheet, animated: true, completion: nil)
     }
     
-    
+    //Diese Funktion gehört zu der darüber stehenden
     func imagePickerControllerTwo(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         imageView.image = image
@@ -118,7 +117,7 @@ class cameraViewController: UIViewController, UIImagePickerControllerDelegate, U
             let imageArray:[UIImage?] = arrayParam
             let stitchedImage:UIImage = OpenCVWrapper.process(with: imageArray as! [UIImage]) as UIImage
             //Statt das Bild in das ScrollView zu packen, einfach wieder zurück ins ImageView
-            let imageView:UIImageView = UIImageView.init(image: stitchedImage)
+            let _:UIImageView = UIImageView.init(image: stitchedImage)
         }
     }
     
@@ -126,21 +125,21 @@ class cameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     //https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
     @IBAction func cameraSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "cameraScene") else {
-            print("View controller Six not found")
+            print("View controller cameraScene not found")
             return
         }
         present(vc, animated: true, completion: nil)
     }
     @IBAction func homeSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "homeScene") else {
-            print("View controller Six not found")
+            print("View controller homeScene not found")
             return
         }
         present(vc, animated: true, completion: nil)
     }
     @IBAction func settingsSceneButton(_ sender: UIButton) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "preferencesScene") else {
-            print("View controller Six not found")
+            print("View controller preferencesScene not found")
             return
         }
         present(vc, animated: true, completion: nil)

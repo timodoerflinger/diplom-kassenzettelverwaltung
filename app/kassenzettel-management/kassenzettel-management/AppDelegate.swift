@@ -35,6 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        //https://stackoverflow.com/questions/31923410/save-variable-after-my-app-closes-swift
+        let defaults = UserDefaults.standard
+        let defaultValue = ["MyBudget" : 0.0]
+        defaults.register(defaults: defaultValue)
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

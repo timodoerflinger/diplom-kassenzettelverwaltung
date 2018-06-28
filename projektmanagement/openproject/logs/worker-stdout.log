@@ -870,3 +870,56 @@ Creating scope :order_by_name. Overwriting existing method Sprint.order_by_name.
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=339) RUNNING
 [Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=339) COMPLETED after 0.1602
 [Worker(host:e06dd657f930 pid:94)] 4 jobs processed at 5.8839 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (16 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-23T07:21:20+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (16 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 2.0804 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (17 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-24T06:33:27+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (17 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 4.9306 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (18 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-25T11:43:11+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (18 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 1.9285 j/s, 1 failed
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=340) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=340) COMPLETED after 0.9675
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=341) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=341) COMPLETED after 0.2147
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=342) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=342) COMPLETED after 0.0411
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=343) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=343) COMPLETED after 0.2537
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=344) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=344) COMPLETED after 0.0515
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=345) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=345) COMPLETED after 0.0695
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=346) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=346) COMPLETED after 0.2913
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=347) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=347) COMPLETED after 0.2146
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=348) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=348) COMPLETED after 0.0417
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=349) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=349) COMPLETED after 0.1887
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=350) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job EnqueueWorkPackageNotificationJob (id=350) COMPLETED after 0.1851
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=351) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=351) COMPLETED after 0.6827
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=352) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=352) COMPLETED after 0.3498
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=353) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=353) COMPLETED after 0.2156
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=354) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=354) COMPLETED after 0.3152
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=355) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=355) COMPLETED after 0.3341
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=356) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=356) COMPLETED after 0.2248
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=357) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverWorkPackageNotificationJob (id=357) COMPLETED after 0.2523
+[Worker(host:e06dd657f930 pid:94)] 18 jobs processed at 3.4004 j/s, 0 failed
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) RUNNING
+[Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (19 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+2018-06-27T04:54:44+0000: [Worker(host:e06dd657f930 pid:94)] Job DeliverInvitationJob (id=3) FAILED (19 prior attempts) with OpenSSL::SSL::SSLError: hostname "localhost" does not match the server certificate
+[Worker(host:e06dd657f930 pid:94)] 1 jobs processed at 1.0493 j/s, 1 failed

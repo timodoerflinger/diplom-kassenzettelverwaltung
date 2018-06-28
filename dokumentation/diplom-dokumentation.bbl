@@ -1,0 +1,24 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Theodoropoulos%
+}{%
+Theodoropoulos%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+GabrielTheodoropoulosWorkingwithCloudKit}
+\APACinsertmetastar {%
+GabrielTheodoropoulosWorkingwithCloudKit}%
+\begin{APACrefauthors}%
+Theodoropoulos, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Working with CloudKit in iOS8.} {Working with cloudkit in
+  ios8.}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

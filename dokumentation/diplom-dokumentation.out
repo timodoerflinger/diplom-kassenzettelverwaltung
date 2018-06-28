@@ -1,17 +1,27 @@
-\BOOKMARK [1][-]{section.1}{Einleitung}{}% 1
-\BOOKMARK [1][-]{section.2}{GitHub-Repository}{}% 2
-\BOOKMARK [1][-]{section.3}{Projektmanagement - Scrum}{}% 3
-\BOOKMARK [1][-]{section.4}{Basis-App}{}% 4
-\BOOKMARK [1][-]{section.5}{Evaluierung des Datenbank-Frameworks}{}% 5
-\BOOKMARK [2][-]{subsection.5.1}{SQLite}{section.5}% 6
-\BOOKMARK [2][-]{subsection.5.2}{Apple Core Data}{section.5}% 7
-\BOOKMARK [2][-]{subsection.5.3}{Realm}{section.5}% 8
-\BOOKMARK [1][-]{section.6}{Datenbank-Schema}{}% 9
-\BOOKMARK [1][-]{section.7}{Datenbank Realm}{}% 10
-\BOOKMARK [2][-]{subsection.7.1}{Realm Installation}{section.7}% 11
-\BOOKMARK [2][-]{subsection.7.2}{Realm Implementierung}{section.7}% 12
-\BOOKMARK [1][-]{section.8}{Produktiver Einsatz}{}% 13
-\BOOKMARK [1][-]{section.9}{Verwendete Software}{}% 14
-\BOOKMARK [2][-]{subsection.9.1}{MySQL-Workbench}{section.9}% 15
-\BOOKMARK [1][-]{section.10}{Quellenverzeichnis}{}% 16
-\BOOKMARK [1][-]{section.11}{Bilderverzeichnis}{}% 17
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Ehrenw\366rtliche Erkl\344rung}{}% 2
+\BOOKMARK [1][-]{section.3}{Vorwort}{}% 3
+\BOOKMARK [1][-]{section.4}{Glossar}{}% 4
+\BOOKMARK [1][-]{section.1}{Einleitung}{}% 5
+\BOOKMARK [1][-]{section.2}{Theoretischer Teil}{}% 6
+\BOOKMARK [1][-]{section.3}{Methodische Vorgehensweise}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{GitHub-Repository}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Projektmanagement - Scrum}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Praktischer Teil}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Basis-App}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Evaluierung des Datenbank-Frameworks}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.2.1}{SQLite}{subsection.4.2}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Apple Core Data}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Realm}{subsection.4.2}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Datenbank-Schema}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Datenbank Realm}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Realm Installation}{subsection.4.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Realm Implementierung}{subsection.4.4}% 19
+\BOOKMARK [2][-]{subsection.4.5}{Benutzeroberfl\344che}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.6}{iCloud Upload}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Installation}{subsection.4.6}% 22
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Programmierung}{subsection.4.6}% 23
+\BOOKMARK [1][-]{section.5}{Schlussfolgerung}{}% 24
+\BOOKMARK [1][-]{section.6}{Anhang}{}% 25
+\BOOKMARK [2][-]{subsection.6.1}{Quellenverzeichnis}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.2}{Bilderverzeichnis}{section.6}% 27

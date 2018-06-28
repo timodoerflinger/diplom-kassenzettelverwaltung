@@ -14,6 +14,7 @@
 		25520C4620BDD479000069AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4520BDD479000069AB /* UIKit.framework */; };
 		25520C4A20BDD51C000069AB /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25520C4820BDD51C000069AB /* OpenCVWrapper.mm */; };
 		25520C4C20BDD720000069AB /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25520C4B20BDD720000069AB /* opencv2.framework */; };
+		2556643520E0EF3E005BA239 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2556643420E0EF3E005BA239 /* CloudKit.framework */; };
 		2561734B20DA494100CFE75F /* realmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2561734A20DA494100CFE75F /* realmObjects.swift */; };
 		2585605F20BDDB8F00F32671 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2585605C20BDDB8F00F32671 /* UIImage+OpenCV.mm */; };
 		2585606020BDDB8F00F32671 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585605E20BDDB8F00F32671 /* UIImage+Rotate.m */; };
@@ -43,6 +44,8 @@
 		25520C4920BDD51C000069AB /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
 		25520C4B20BDD720000069AB /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		25520C4D20BDD88B000069AB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2556643320E0EEDC005BA239 /* kassenzettel-management.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "kassenzettel-management.entitlements"; sourceTree = "<group>"; };
+		2556643420E0EF3E005BA239 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2561734A20DA494100CFE75F /* realmObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realmObjects.swift; sourceTree = "<group>"; };
 		2585605B20BDDB8F00F32671 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		2585605C20BDDB8F00F32671 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 				25520C4620BDD479000069AB /* UIKit.framework in Frameworks */,
 				25520C4420BDD470000069AB /* Foundation.framework in Frameworks */,
 				25520C4220BDD466000069AB /* CoreImage.framework in Frameworks */,
+				2556643520E0EF3E005BA239 /* CloudKit.framework in Frameworks */,
 				25F96E3D206D1E3A00D9AC7D /* libz.tbd in Frameworks */,
 				25F96E48206D444000D9AC7D /* Pods_tesseractTest.framework in Frameworks */,
 				1DE1FE4AE0D5983BEB5E0CBE /* Pods_kassenzettel_management.framework in Frameworks */,
@@ -117,6 +121,7 @@
 		25883E73206CF2CE00BFC687 /* kassenzettel-management */ = {
 			isa = PBXGroup;
 			children = (
+				2556643320E0EEDC005BA239 /* kassenzettel-management.entitlements */,
 				25CC5A4720DA50C900C973D4 /* OpenCV */,
 				25883E74206CF2CE00BFC687 /* AppDelegate.swift */,
 				25883E76206CF2CE00BFC687 /* cameraViewController.swift */,
@@ -153,6 +158,7 @@
 		8E56EEE3A3101CBBE9E1D92D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2556643420E0EF3E005BA239 /* CloudKit.framework */,
 				2585606E20BDDC6000F32671 /* AVFoundation.framework */,
 				2585606C20BDDC4A00F32671 /* CoreGraphics.framework */,
 				2585606A20BDDC2D00F32671 /* CoreData.framework */,
@@ -217,6 +223,14 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -450,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "kassenzettel-management/kassenzettel-management.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 443835D258;
 				ENABLE_BITCODE = NO;
@@ -460,13 +475,13 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/kassenzettel-management/PrefixHeader.pch";
 				INFOPLIST_FILE = "kassenzettel-management/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = diplom.tesseractTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "diplom.kassenzettel-management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "kassenzettel-management/kassenzettel-management-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "kassenzettel-management/kassenzettel-management.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 443835D258;
 				ENABLE_BITCODE = NO;
@@ -486,12 +502,12 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/kassenzettel-management/PrefixHeader.pch";
 				INFOPLIST_FILE = "kassenzettel-management/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = diplom.tesseractTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "diplom.kassenzettel-management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "kassenzettel-management/kassenzettel-management-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

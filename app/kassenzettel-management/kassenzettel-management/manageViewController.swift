@@ -9,15 +9,24 @@
 import Foundation
 import UIKit
 import AVFoundation
-import Realm
 import RealmSwift
 import TesseractOCR
+import CloudKit
 
 class manageViewController: UIViewController, G8TesseractDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var imageViewManaged: UIImageView!
     
     @IBOutlet weak var kategorieSwitcher: UIPickerView!
+    
+    @IBAction func backButton(_ sender: UIButton) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "cameraScene") else {
+            print("View controller cameraScene not found")
+            return
+        }
+        present(vc, animated: true, completion: nil)
+    }
+    
     
     //http://artoftheapp.com/ios/uiswitch-tutorial-swift/
     @IBOutlet weak var iCloudSwitch: UISwitch!
@@ -64,7 +73,6 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
         //imageView.transform = imageView.transform.rotated(by: CGFloat(M_PI_2))
         
         return bild
-        
     }
     
     //Diese Funktion erhält das bearbeitete Bild und liest den Text mit dem Framework TesseractOCRiOS aus und gibt diesen zurück
@@ -105,7 +113,7 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
         return finalValue
     }
     
-    //Diese Funktion liest die letzte ID (die grösste und damit den aktuellesten Eintrag aus und erhöht diese um eins
+    //Diese Funktion liest die letzte ID, die grösste und damit den aktuellesten Eintrag aus und erhöht diese um eins
     func getkassenzettelIDforAutoIncrement() -> Int {
         
         let lastDBKassenzettelEntry: kassenzettel = realm.objects(kassenzettel.self).sorted(byKeyPath: "kassenzettelID", ascending: false).first!
@@ -117,6 +125,7 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
     //Diese Funktion erstellt ein neues Objekt als DB-Eintrag und pusht es in die DB
     func DatabaseVerarbeitung(ID: Int, Bildname: String, AusgelesenerText: String, Betrag: Double){
         
+        //erstellt ein neues Object als Realm-Eintrag mit den Attributen aus den Parametern
         let newBon = kassenzettel()
         newBon.kassenzettelID = ID
         newBon.kassenzettelBildname = Bildname
@@ -124,15 +133,14 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
         newBon.kassenzettelAusgelesenerText = AusgelesenerText
         newBon.kassenzettelEndbetrag = Betrag
         
+        //versucht das Object als neuen Eintrag in die Datenbank zu schreiben, oder gibt sonst eine Fehlermeldung aus
         do {
             let realm = try Realm()
-            // Persist your data easily
             try! realm.write {
                 realm.add(newBon)
             }
         } catch let error as NSError {
-            // handle error
-            print("Realm-Error 2:", error)
+            print("Realm-Error:", error)
         }
     }
     
@@ -151,12 +159,54 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
     //http://artoftheapp.com/ios/uiswitch-tutorial-swift/
     func toggleiCloudSpeicherung() {
         if iCloudSwitch.isOn {
-            print("Switch is on")
+            //print("Switch is on")
+            iCloudUpload(bild: imageViewManaged.image!, ID: getkassenzettelIDforAutoIncrement())
         } else {
-            print("Switch is off")
+            //print("Switch is off")
         }
     }
     
+    func iCloudUpload(bild: UIImage, ID: Int){
+        
+        //https://www.appcoda.com/cloudkit-introduction-tutorial/
+        var imageURL: NSURL!
+        let documentsDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+        
+        //set a name for the image, that will save temporarily in the directory
+        let tempImageName = "temp_image.jpg"
+        
+        //migrate the image from the parameter to NSData
+        let imageData: NSData = UIImagePNGRepresentation(bild)! as NSData
+        //set the directory with the name for the image
+        let path = documentsDirectoryPath.appendingPathComponent(tempImageName)
+        //set the directory as URL path
+        imageURL = NSURL(fileURLWithPath: path)
+        imageData.write(to: imageURL as URL, atomically: true)
+        
+        //set an ID for the record
+        let tmpTextfuerID:String = String(format:"%.2f", ID)
+        let kassenzettelRecordID = CKRecordID(recordName: tmpTextfuerID)
+        
+        //set the type of the record with the recordID
+        let kassenzettelRecord = CKRecord(recordType: "kassenzettel", recordID: kassenzettelRecordID)
+        //give the record the attribute "kassenzettelDatum" with the timestamp()-output
+        kassenzettelRecord.setObject(timestamp() as NSString, forKey: "kassenzettelDatum")
+        
+        //set a CKAsset with the local fileURL from above
+        let imageAsset = CKAsset(fileURL: imageURL as URL)
+        //give the record the attribute "kassenzettelBild" with the image as CKAsset
+        kassenzettelRecord.setObject(imageAsset, forKey: "kassenzettelBild")
+        
+        //set the connection to the container with the private database from the App
+        let privateDatabase = CKContainer.default().privateCloudDatabase
+        
+        //write the record to the database in the container
+        privateDatabase.save(kassenzettelRecord, completionHandler: { (record, error) -> Void in
+            if (error != nil) {
+                //print(error!)
+            }
+        })
+    }
     
     //Button verarbeitet das gewählte/erstellte Bild mit OpenCV und liest den Text mit Tesseract aus und pusht die Daten in die DB
     @IBAction func bildVerarbeitungButton(_ sender: UIButton) {
@@ -167,7 +217,7 @@ class manageViewController: UIViewController, G8TesseractDelegate, UIImagePicker
         
         let gezahlterBetragAusText: Double = getFinalValue(recognizedTextAsString: textNachTesseract)
         
-        //DatabaseVerarbeitung(ID: getkassenzettelIDforAutoIncrement, Bildname: "platzhalter", AusgelesenerText: textNachTesseract, Betrag: gezahlterBetragAusText)
+        DatabaseVerarbeitung(ID: getkassenzettelIDforAutoIncrement(), Bildname: "platzhalter", AusgelesenerText: textNachTesseract, Betrag: gezahlterBetragAusText)
         
         //Nachdem die daten in der Datenbank sind, spring die Benutzeroberfläche automatisch auf das homeScene
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "homeScene") else {
